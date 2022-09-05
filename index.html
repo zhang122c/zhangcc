@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZHANG</title>
+    <style>
+        .personalDataCard {
+            position: fixed;
+            top: 10%;
+            left: 25px;
+            width: 280px;
+            height: 340px;
+            border-radius: 16px;
+            background-color: rgb(216, 242, 255);
+            padding-top: 20px;
+            box-sizing: content-box;
+        }
+
+        .personalDataCard p {
+            font-family: "微软雅黑";
+            /* initial; */
+            color: rgb(187, 10, 10);
+            font-size: 16px;
+            text-indent: 0.4em;
+        }
+
+        .personalDataCard p span {
+            font-size: 16px;
+        }
+
+
+        .Mian_P_div {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .P_div {
+            width: 640px;
+            text-align: center;
+        }
+
+
+
+
+        .Main_images {
+            display: flex;
+            justify-content: center;
+        }
+
+        .image {
+            width: 80px;
+            height: 80PX;
+        }
+
+        .Image_div {
+            width: 640px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body background="H:\VSCode\zhang1\images\下载 (11).png">
+    <table width="1004" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td colspan="5" align="center"><img src="images\123.png" width="1000" height="300" />
+            </td>
+        </tr>
+        <!-- 第一行插入的图片，合并了5列 -->
+        <tr bgcolor="#AEE9F7">
+            <td colspan="5" align="center">
+                个人介绍
+            </td>
+        </tr>
+        <!-- 第二行个人介绍，合并了5列 -->
+        <tr>
+            <td>
+                &emsp;&emsp;&emsp;<img src="images\arrow.gif">&nbsp;姓名:&emsp;张翀<br>
+                &emsp;&emsp;&emsp;<img src="images\arrow.gif">&nbsp;性别:&emsp;男<br>
+                &emsp;&emsp;&emsp;<img src="images\arrow.gif">&nbsp;年龄:&emsp;22<br>
+                &emsp;&emsp;&emsp;<img src="images\arrow.gif">&nbsp;爱好:&emsp;打篮球，追剧,听歌<br>
+                &emsp;&emsp;&emsp;<img src="images\arrow.gif">&nbsp;星座:&emsp;摩羯座<br>
+                &emsp;&emsp;&emsp;<img src="images\arrow.gif">&nbsp;专业:&emsp;计算机科学与技术<br>
+                &emsp;&emsp;&emsp;<img src="images\arrow.gif">&nbsp;班级:&emsp;计科203班
+            </td>
+            <td>
+                <img src="H:\VSCode\zhang1\images\头像1.jpg" width="210" height="210" vspace="5" align="right"
+                    hspace="60">
+            </td>
+        </tr>
+        <!-- 第三行左边个人介绍，右边放入自己大头照， -->
+    </table>
+    <hr width="1000" height="300" size="3">
+    <!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="H:\VSCode\zhang1\images\图片3.png" align="middle" width="60"
+        height="60">
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img src="images\图片4.png" align="top" width="80" height="80">
+    <img src="H:\VSCode\zhang1\images\图片5.png" align="right" width="80" height="80" hspace="100"> -->
+
+    <div class="Main_images">
+
+        <div class="Image_div">
+            <img src=".\images\图片3.png" width="60" height="60">
+        </div>
+
+        <div class="Image_div">
+            <img class="image" src="images\图片4.png">
+        </div>
+
+        <div class="Image_div">
+            <img class="image" src="images\图片555.png">
+        </div>
+
+    </div>
+    <div class="Mian_P_div">
+
+        <div class="P_div">
+            尘劳迥脱事非常，紧把绳头做一场。
+            <br>
+            不经一番寒彻骨，怎得梅花扑鼻香。
+        </div>
+
+        <div class="P_div">
+            云想衣裳花想容，春风拂槛露华浓。
+            <br>
+            若非群玉山头见，会向瑶台月下逢。
+        </div>
+
+        <div class="P_div">
+            泉眼无声惜细流，树阴照水爱晴柔。
+            <br>
+            小荷才露尖尖角，早有蜻蜓立上头。
+        </div>
+    </div>
+    <!-- <p align="left">尘劳迥脱事非常，紧把绳头做一场。
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;云想衣裳花想容，春风拂槛露华浓。
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;泉眼无声惜细流，树阴照水爱晴柔。
+    <p align="left">不经一番寒彻骨，怎得梅花扑鼻香。
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;若非群玉山头见，会向瑶台月下逢。
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;小荷才露尖尖角，早有蜻蜓立上头。
+    </p> -->
+    <div class="personalDataCard">
+        <p>
+            <center>《桃花庵·程序猿》</center>
+        </p>
+        <p>写字楼里写字间，写字间中程序猿。</p>
+        <p>程序人员写程序，又将程序换酒钱。</p>
+        <p>酒醒只在屏前坐，酒醉还来屏下眠。</p>
+        <p>酒醉酒醒日复日，屏前屏下年复年。</p>
+        <p>但愿老死电脑间，不愿鞠躬老板前。</p>
+        <p>奔驰宝马贵者趣，公交自行程序猿。</p>
+        <p>别人笑我太疯癫，我笑自己命太贱。</p>
+    </div>
+</body>
+
+</html>
